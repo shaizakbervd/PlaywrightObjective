@@ -1,0 +1,10 @@
+// to run all scenarios
+npm run TestScenarios
+
+// to run parallel in differen browsers
+
+npm run test:all
+
+// to generate report (firstly run the scenarios then run below command to generate report)
+
+npx ts-node generateReport.ts

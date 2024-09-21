@@ -1,0 +1,10 @@
+[
+    {
+        "uname": "standard_user",
+        "pwd": "secret"
+    },
+    {
+        "uname": "standard_user",
+        "pwd": "secret_sauce"
+    }
+]

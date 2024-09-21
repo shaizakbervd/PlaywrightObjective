@@ -1,0 +1,25 @@
+{
+  "name": "playwright",
+  "version": "1.29.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testcase": "npx playwright test",
+    "install": "npx playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "experimental-allure-playwright": "^0.0.3",
+    "jest-without-globals": "^0.0.3"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.17.2",
+    "allure-playwright": "^2.0.0-beta.16",
+    "rimraf": "^3.0.2"
+  }
+}
